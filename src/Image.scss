@@ -1,0 +1,12 @@
+.photo{
+    width: 150px;
+    margin: 8px;
+
+    &.open{
+        width: 600px;
+        position: absolute;
+        top:0;
+        right: 50%;
+        transform:translateX(50%);
+    }
+}
